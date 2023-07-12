@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <script src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<script>
+    localStorage.setItem("y","1");
+    localStorage.setItem("a","0");
+    localStorage.setItem("b","0");
+    localStorage.setItem("c","0");
+    localStorage.setItem("d","0");
+    localStorage.setItem("e","0");
+    localStorage.setItem("f","0");
+    localStorage.setItem("g","0");
+    localStorage.setItem("h","0");
+    localStorage.setItem("i","0");
+</script>
+    
+</div>
+<body>
+    <div class="container text-center" stye="width:13%;">
+        <h1><b> TIC-TAC-TOE</b></h1>
+
+        <table class="table table-dark table-hover">
+        
+            <thead>
+              <tr>
+                
+                <th scope="col">
+                    <button id="1" type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+        
+                <th scope="col">
+                    <button id="2" type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+                
+                <th scope="col">
+                    <button id="3"type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr> 
+                <th scope="col">
+                    <button id="4"type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th scope="col">
+                <th>
+                    <button id="5"type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+                <th scope="col">
+                    <button id="6" type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+
+                </th>
+              </tr>
+              <tr>
+                
+                <th scope="col">
+                    <button id="7" type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+                <th scope="col">
+                    <button id="8"type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+                <th scope="col">
+                    <button id="9"type="button" class="btn btn-primary mt-2" onclick="func(this.id)">-</button>
+                </th>
+              </tr>
+              
+            </tbody>
+          </table>
+
+          <div id="result"></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+
+</html>
